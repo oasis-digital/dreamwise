@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    padding: 0; 
+    margin: 0;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container{
+    background: url("../images/bgfood.png");
+    display: block;
+    box-sizing: border-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    overflow: hidden;
+    
+}
+.container .heada{
+    margin: 34px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 30px;
+    padding: 10px 20px;
+}
+.container .sub-head{
+    text-align: center;
+    color: #ffc107;
+}
+.main .menu{
+    margin-bottom: 28px;
+}
+.d-flex .col1{
+    background-color: #ffc107;
+    border-radius: 4px;
+}
+ .d-flex .col3{
+    width: 15%;
+    margin-left: 10px;
+    text-align: right;
+ }
+ .d-flex .card{
+    background-color: transparent;
+    border: 2px solid #fff;
+    margin-left: 16px;
+    width: 80%;
+    color: #fff;
+ }
+
+ .col2 .d-flex p{
+    padding: 2px;
+    margin: 0;
+ }
+  input[type="checkbox"]:checked {
+            background-color: #ffc107;
+            border: 1px solid #ffc107;
+        }
+        input[type="checkbox"]:checked::after {
+            content: "";
+            position: absolute;
+            left: 5px;
+            top: 1px;
+            width: 6px;
+            height: 12px;
+            border-width: 0 3px 3px 0;
+            transform: rotate(45deg);
+        }
+         input[type="checkbox"] {
+            width: 10px;
+            height: 10px;
+            appearance: none;
+            -webkit-appearance: none;
+            background-color: #e0e0e0;
+            border: 1px solid #ccc;
+            border-radius: 2px;
+            cursor: pointer;
+            position: relative;
+        }
