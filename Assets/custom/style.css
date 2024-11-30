@@ -5,26 +5,35 @@
 }
 body{
     font-family: 'Courier New', Courier, monospace;
+    background-color: #ffc107;
 }
 
 .container{
     background: url("../images/bgfood.png");
     display: block;
     box-sizing: border-box;
-    background-size: cover;
-    background-repeat: no-repeat;
     height: auto;
     overflow: hidden;
-    
 }
 .container .heada{
-    margin: 34px;
-    background-color: #fff;
+    margin: 19px;
+    color: #fff;
     text-align: center;
     border-radius: 30px;
     padding: 10px 20px;
+    
+}
+.container .heada h2{
+font-family: "Cookie", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 32px;
 }
 .container .sub-head{
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
     text-align: center;
     color: #ffc107;
 }
@@ -36,22 +45,33 @@ body{
     border-radius: 4px;
 }
  .d-flex .col3{
-    width: 15%;
+    width: 4%;
     margin-left: 10px;
     text-align: right;
  }
  .d-flex .card{
+    padding: 0;
     background-color: transparent;
-    border: 2px solid #fff;
+    border: 0;
     margin-left: 16px;
-    width: 80%;
+    width: 95%;
     color: #fff;
+ }
+ .d-flex .card .card-body{
+    padding: 0;
  }
 
  .col2 .d-flex p{
     padding: 2px;
     margin: 0;
  }
+table tbody tr {
+    border-radius: 10px !important;
+    margin: 10px;
+    padding: 2px;
+    
+
+}
   input[type="checkbox"]:checked {
             background-color: #ffc107;
             border: 1px solid #ffc107;
@@ -77,3 +97,26 @@ body{
             cursor: pointer;
             position: relative;
         }
+       
+.divider span, .divider p{
+    color: #ffc107;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+}
+.divider {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.divider::before,
+.divider::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid #ffc107; /* Adjust color as needed */
+  margin: 0 10px; /* Adjust spacing around the text */
+}
+
