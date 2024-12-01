@@ -41,7 +41,7 @@ font-family: "Cookie", cursive;
     margin-bottom: 28px;
 }
 .d-flex .col1{
-    background-color: #ffc107;
+    background-color: transparent;
     border-radius: 4px;
 }
  .d-flex .col3{
@@ -60,7 +60,9 @@ font-family: "Cookie", cursive;
  .d-flex .card .card-body{
     padding: 0;
  }
-
+.d-flex .col2{
+    background-color: #f2dc9b;
+}
  .col2 .d-flex p{
     padding: 2px;
     margin: 0;
